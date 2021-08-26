@@ -1,0 +1,11 @@
+set yrange[-1:1]
+plot 'Mandelbrot_Set.dat' u 2:1 w p  pt 7 ps 0.2
+set term png       
+set output "printme.png" 
+replot
+set term x11
+
+
+
+
+
